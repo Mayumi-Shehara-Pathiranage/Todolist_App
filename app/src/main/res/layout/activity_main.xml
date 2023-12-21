@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DD00"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="264dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="479dp"
+        android:backgroundTint="#FF5722"
+        android:radius="0dp"
+        android:text="CREATE NEW TASK"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextnewtask"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Enter new task"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#272727"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <Button
+        android:id="@+id/btn_Read"
+        android:layout_width="219dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#6F24F4"
+        android:text="READ TASKS"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_add"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="318dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#1B1515"
+        android:ems="10"
+        android:hint="Enter task ID To Update or Delete "
+        android:inputType="textPersonName"
+        android:textColorHint="#201F1F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="291dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="509dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="163dp"
+        android:backgroundTint="#E83196"
+        android:text="UPDATE TASKS"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="290dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="606dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#2DFF36"
+        android:text="DELETE TASKS"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="295dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="To Do List"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextnewtask"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
