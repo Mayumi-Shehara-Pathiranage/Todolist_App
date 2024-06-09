@@ -1,4 +1,4 @@
-As part of my academic journey I completed a mobile app dev mini project where I integrated a To-Do List application with an SQLite database. This project showcased my proficiency in implementing essential CRUD functionalities for efficient task management. 
+I integrated a To-Do List application with an SQLite database. This project showcased my proficiency in implementing essential CRUD functionalities for efficient task management. 
 
 The key aspects include:
 - Developed an interactive user interface with a personalized layout design for a seamless user experience.
